@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sovereign Light</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:ital,wght@0,700;1,400&display=swap" 
+  rel="stylesheet">
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/body.css">
+  <link rel="stylesheet" href="styles/general.css">
+  <link rel="icon" type="images/x-icon" href="images/Untitled-1 copy.png">
+</head>
+<body>
+  <header class="header">
+      <div class="head-1">
+     <img class="logo" src="images/Untitled-1 copy.png">   
+   <div class="text"> 
+    SOVEREIGN LIGHT INTERNATIONAL SCHOOL  
+   </div>  
+    </div> 
+      
+      <nav class="head-2">
+         <div>Register Now </div>
+         <div> Online Lessons</div>
+       <div> About Us </div>
+       <div> <a style="color: white;" href="signup.html" target="_blank">Sign Up Now </a></div>
+      </nav>
+        
+
+  </header>
+
+  <main class="first">
+       <div class="info-1">
+      <img class="img" src="images/Untitled-1 copy.png">
+      <h2 class="info">SOVEREIGN LIGHT VISION & MANDATE</h2>
+    </div>
+    <section class="img-text-container">
+        <div class="img-text"> 
+      <ul class="w1">
+      <div class="zero">
+       <div class="z"> &nbsp;</div>&nbsp;
+          <div class="e">&nbsp;</div>&nbsp;
+          <div class="r">&nbsp;</div>&nbsp;
+          <div class="o">&nbsp;</div> &nbsp;
+      </div> 
+
+       <li>
+        Our goal is to create a positive and
+    engaging early learning experience that
+    supports children in becoming confident,
+    curious and capable learners.
+    </ul> 
+       </li> 
+<ul class="w1-2">
+    <div class="zero">
+      <div class="z"> &nbsp;</div>&nbsp;
+         <div class="e">&nbsp;</div>&nbsp;
+         <div class="r">&nbsp;</div>&nbsp;
+         <div class="o">&nbsp;</div> &nbsp;
+     </div> 
+
+  <li> We envision a future where every child
+    has the opportunity to reach their full
+    potential. </li>
+</ul>
+   <ul class="w1-3">
+   <div class="zero">
+    <div class="z"> &nbsp;</div>&nbsp;
+       <div class="e">&nbsp;</div>&nbsp;
+       <div class="r">&nbsp;</div>&nbsp;
+       <div class="o">&nbsp;</div> &nbsp;
+   </div> 
+<li> We Value diversity, respect each child's 
+  individual needs, abilities and foster a
+  sense of collaboration among children,
+  families and staff.</li>
+   
+</ul>
+    <ul  class="w1-4">
+        <div class="zero">
+          <div class="z"> &nbsp;</div>&nbsp;
+             <div class="e">&nbsp;</div>&nbsp;
+             <div class="r">&nbsp;</div>&nbsp;
+             <div class="o">&nbsp;</div> &nbsp;
+         </div> 
+   
+       <li> We believe that every child is unique
+        and has the capacity to learn and
+        grow in their own way. </li>
+       </ul>
+    <ul class="w1-5">
+      <div class="zero">
+        <div class="z"> &nbsp;</div>&nbsp;
+           <div class="e">&nbsp;</div>&nbsp;
+           <div class="r">&nbsp;</div>&nbsp;
+           <div class="o">&nbsp;</div> &nbsp;
+       </div> 
+ 
+        <li> Our vision is to be a leader in early
+          childhood education, providing innovative
+          and engaging experiences that inspire
+          curiosity and a love of learning. </li>
+    </ul>
+  <ul class="w1-6">
+     <div class="zero">
+      <div class="z"> &nbsp;</div>&nbsp;
+         <div class="e">&nbsp;</div>&nbsp;
+         <div class="r">&nbsp;</div>&nbsp;
+         <div class="o">&nbsp;</div> &nbsp;
+     </div> 
+
+    <li>Our goal is to empower children to
+      become confident, independent and
+      responsible learners who are prepared
+      for success in school and in life. </li>
+  </ul>
+    </div>
+    </section>
+     <hr> <!---This is some kind of line creator or so-->
+  <footer class="foot">
+    <br><br> <!--Breaks a line-->
+ 
+  </footer>
+    </main>
+
+
+    <script>
+      // <![CDATA[  <-- For SVG support
+      if ('WebSocket' in window) {
+        (function () {
+          function refreshCSS() {
+            var sheets = [].slice.call(document.getElementsByTagName("link"));
+            var head = document.getElementsByTagName("head")[0];
+            for (var i = 0; i < sheets.length; ++i) {
+              var elem = sheets[i];
+              var parent = elem.parentElement || head;
+              parent.removeChild(elem);
+              var rel = elem.rel;
+              if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+                var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+                elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+              }
+              parent.appendChild(elem);
+            }
+          }
+          var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+          var address = protocol + window.location.host + window.location.pathname + '/ws';
+          var socket = new WebSocket(address);
+          socket.onmessage = function (msg) {
+            if (msg.data == 'reload') window.location.reload();
+            else if (msg.data == 'refreshcss') refreshCSS();
+          };
+          if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+            console.log('Live reload enabled.');
+            sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+          }
+        })();
+      }
+      else {
+        console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+      }
+      // ]]>
+    </script>
+
+</body>
+</html>
