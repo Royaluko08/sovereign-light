@@ -63,7 +63,7 @@ div ul {
   background-color: rgb(90, 66, 4);
   color: white;
   padding: 16px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Franklin Gothic Medium';
   border-radius: 5px;
   text-align: center;
 }
@@ -166,7 +166,7 @@ label.text:hover {
 }
 }
 
-@media (max-width:435px) {
+@media (max-width:488px) {
   
 label {
   padding: 7px;
@@ -236,8 +236,7 @@ label.text:hover {
   }
 
 }
-@media (max-width: 375px) {
-  
+@media (max-width: 391px) {
 label {
   padding: 7px;
 }
@@ -251,8 +250,13 @@ label.text:hover {
   color: white;
   padding: 7px;
 }
+nav h1 {
+  font-size: 20px;  
+  padding: 10px;
+  width: 73%;  
+}
   div ul {
-    margin-top: 175px;
+    margin-top: 125px;
     font-size: 12px;
   }
   form {
