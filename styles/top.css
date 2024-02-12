@@ -4,7 +4,7 @@ body {
   flex-direction: column;
   padding: 0;
   margin: 0;
-  background-image: url("/images/back-g.jpg");
+  background-image: url("images/back-g.jpg");
   background-attachment: fixed;
 }
 
@@ -208,6 +208,7 @@ label.text:hover {
     font-size: 24px;  
     padding: 10px;
     width: 73%;  
+    margin: 0;
   }
   .logo-1 {
     height: 75px;
@@ -253,10 +254,10 @@ label.text:hover {
 nav h1 {
   font-size: 20px;  
   padding: 10px;
-  width: 73%;  
+  width: 73%; margin: 0%; 
 }
   div ul {
-    margin-top: 125px;
+    margin-top: 135px;
     font-size: 12px;
   }
   form {
